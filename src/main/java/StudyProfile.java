@@ -1,4 +1,8 @@
 public enum StudyProfile {
     CYBERSECURITY,
-    COMPUTER_SCIENCE
+    COMPUTER_SCIENCE,
+    PHYSICS,
+    MEDICINE,
+    LINGUISTICS,
+    MATHEMATICS
 }

@@ -7,11 +7,23 @@
     <groupId>com.sahd</groupId>
     <artifactId>UniversityManager</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <properties>
         <commons-lang.version>3.12.0</commons-lang.version>
         <commons-coll.version>4.4</commons-coll.version>
-        <poi-ooxml.version>5.0.0</poi-ooxml.version>
+        <poi.version>5.0.0</poi.version>
     </properties>
 
     <dependencies>
@@ -31,7 +43,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
-            <version>${poi-ooxml.version}</version>
+            <version>${poi.version}</version>
         </dependency>
     </dependencies>
 
