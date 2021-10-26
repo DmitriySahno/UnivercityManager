@@ -69,7 +69,7 @@ public class University {
                 ", fName:'" + fullName + '\'' +
                 ", yearOfFound:" + yearOfFoundation +
                 ", mainProf:" + mainProfile +
-                '}'+'\n';
+                '}';
     }
 
 

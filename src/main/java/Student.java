@@ -57,6 +57,6 @@ public class Student {
                 ", univId:'" + universityId + '\'' +
                 ", currCrsNum:" + currentCourseNumber +
                 ", avgExScr:" + avgExamScore +
-                '}'+'\n';
+                '}';
     }
 }
