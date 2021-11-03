@@ -1,3 +1,8 @@
+package comparators;
+
+import enums.StudentComparators;
+import enums.UniversityComparators;
+
 public class MyComparator {
 
     public static StudentComparator getComparator(StudentComparators comparator) {

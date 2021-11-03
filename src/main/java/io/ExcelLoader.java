@@ -1,3 +1,8 @@
+package io;
+
+import enums.StudyProfile;
+import model.Student;
+import model.University;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,7 +20,7 @@ public class ExcelLoader {
     private ExcelLoader() {
     }
 
-    public static Collection<University> readUniversity(String fileName) {
+    public static List<University> readUniversity(String fileName) {
 
         List<University> list = new ArrayList<>();
 
@@ -42,7 +47,7 @@ public class ExcelLoader {
         return list;
     }
 
-    public static Collection<Student> readStudents(String fileName) {
+    public static List<Student> readStudents(String fileName) {
         List<Student> list = new ArrayList<>();
 
         try (XSSFWorkbook book = new XSSFWorkbook(new FileInputStream(new File(fileName)))) {

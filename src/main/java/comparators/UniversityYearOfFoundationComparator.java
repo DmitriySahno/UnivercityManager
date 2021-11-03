@@ -1,3 +1,7 @@
+package comparators;
+
+import model.University;
+
 public class UniversityYearOfFoundationComparator implements UniversityComparator {
 
     @Override

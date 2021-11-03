@@ -1,3 +1,6 @@
+package comparators;
+
+import model.University;
 import org.apache.commons.lang3.StringUtils;
 
 public class UniversityFullNameComparator implements UniversityComparator {
