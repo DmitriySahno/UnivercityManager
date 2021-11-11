@@ -2,9 +2,12 @@ import comparators.MyComparator;
 import enums.StudentComparators;
 import enums.UniversityComparators;
 import io.ExcelLoader;
+import io.ExcelWriter;
+import model.Statistics;
 import model.Student;
 import model.University;
 import util.JsonUtil;
+import util.StatisticsUtil;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -21,20 +24,8 @@ public class Main {
         List<Student> studentsBegin = ExcelLoader.readStudents(fileName);
         List<University> universitiesBegin = ExcelLoader.readUniversity(fileName);
 
-        studentsBegin.stream()
-                .filter(student -> student.getUniversityId().equals("0002-high"))
-                .map(JsonUtil::studentToJson)
-                .peek(System.out::println)
-                .map(JsonUtil::jsonToStudent)
-                .forEach(System.out::println);
-
-        universitiesBegin.stream()
-                .filter(university -> university.getYearOfFoundation()>=1990)
-                .map(JsonUtil::universityToJson)
-                .peek(System.out::println)
-                .map(JsonUtil::jsonToUniversity)
-                .forEach(System.out::println);
-
+        List<Statistics> statisticsList = StatisticsUtil.convertStudAndUnivToStat(studentsBegin, universitiesBegin);
+        ExcelWriter.writeStatistics(statisticsList, "src/main/resources/statisticsInfo.xlsx");
 
     }
 
