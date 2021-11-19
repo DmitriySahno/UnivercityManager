@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-11-19T12:00:52</date>
+  <millis>1637316052251</millis>
+  <sequence>0</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Loading students</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:52</date>
+  <millis>1637316052543</millis>
+  <sequence>1</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Starting to read the file with Students: src/main/resources/universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:54</date>
+  <millis>1637316054969</millis>
+  <sequence>2</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Reading the data of Students</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:54</date>
+  <millis>1637316054998</millis>
+  <sequence>3</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readStudents</method>
+  <thread>1</thread>
+  <message>Successful reading the file with Students</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055000</millis>
+  <sequence>4</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Loading universities</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055001</millis>
+  <sequence>5</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Starting to read the file with Universities: src/main/resources/universityInfo.xlsx</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055108</millis>
+  <sequence>6</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Reading the data of Universities</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055132</millis>
+  <sequence>7</sequence>
+  <logger>io.ExcelLoader</logger>
+  <level>INFO</level>
+  <class>io.ExcelLoader</class>
+  <method>readUniversity</method>
+  <thread>1</thread>
+  <message>Successful of reading the file with Universities</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055134</millis>
+  <sequence>8</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Loading universities</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055391</millis>
+  <sequence>9</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>Stream students result: Иванов И. А.</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055392</millis>
+  <sequence>10</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>Stream students result: Козлов М. В.</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055394</millis>
+  <sequence>11</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$1</method>
+  <thread>1</thread>
+  <message>Stream students result: Фёдоров А. И.</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055404</millis>
+  <sequence>12</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$3</method>
+  <thread>1</thread>
+  <message>Stream universities result: Московский Выдуманный Университет</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055406</millis>
+  <sequence>13</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$3</method>
+  <thread>1</thread>
+  <message>Stream universities result: Тамбовский Университет Медицины</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055407</millis>
+  <sequence>14</sequence>
+  <logger>Main</logger>
+  <level>INFO</level>
+  <class>Main</class>
+  <method>lambda$main$3</method>
+  <thread>1</thread>
+  <message>Stream universities result: Воронежский Литературно-Переводческий Университет</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055411</millis>
+  <sequence>15</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>convertStudAndUnivToStat</method>
+  <thread>1</thread>
+  <message>Starting conversion Students and Universities to Statistics</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055419</millis>
+  <sequence>16</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Universities per Profile: PHYSICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055421</millis>
+  <sequence>17</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Students per Profile: PHYSICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055432</millis>
+  <sequence>18</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting a list of Universities per Profile: PHYSICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055436</millis>
+  <sequence>19</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting average examination score per Profile: PHYSICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055451</millis>
+  <sequence>20</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Finish conversion to statistics per Profile: PHYSICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055452</millis>
+  <sequence>21</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Universities per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055454</millis>
+  <sequence>22</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Students per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055455</millis>
+  <sequence>23</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting a list of Universities per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055455</millis>
+  <sequence>24</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting average examination score per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055456</millis>
+  <sequence>25</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Finish conversion to statistics per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055457</millis>
+  <sequence>26</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Universities per Profile: MATHEMATICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055458</millis>
+  <sequence>27</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Students per Profile: MATHEMATICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055459</millis>
+  <sequence>28</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting a list of Universities per Profile: MATHEMATICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055460</millis>
+  <sequence>29</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting average examination score per Profile: MATHEMATICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055461</millis>
+  <sequence>30</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Finish conversion to statistics per Profile: MATHEMATICS</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055462</millis>
+  <sequence>31</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Universities per Profile: MEDICINE</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055463</millis>
+  <sequence>32</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Students per Profile: MEDICINE</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055465</millis>
+  <sequence>33</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting a list of Universities per Profile: MEDICINE</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055466</millis>
+  <sequence>34</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting average examination score per Profile: MEDICINE</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055470</millis>
+  <sequence>35</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Finish conversion to statistics per Profile: MEDICINE</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055472</millis>
+  <sequence>36</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>convertStudAndUnivToStat</method>
+  <thread>1</thread>
+  <message>Successful of conversion students and universities to statistics</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055476</millis>
+  <sequence>37</sequence>
+  <logger>io.ExcelWriter</logger>
+  <level>INFO</level>
+  <class>io.ExcelWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Starting write statistics to excel</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055725</millis>
+  <sequence>38</sequence>
+  <logger>io.ExcelWriter</logger>
+  <level>INFO</level>
+  <class>io.ExcelWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Formatting header</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:55</date>
+  <millis>1637316055790</millis>
+  <sequence>39</sequence>
+  <logger>io.ExcelWriter</logger>
+  <level>INFO</level>
+  <class>io.ExcelWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Filling the data</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:56</date>
+  <millis>1637316056439</millis>
+  <sequence>40</sequence>
+  <logger>io.ExcelWriter</logger>
+  <level>INFO</level>
+  <class>io.ExcelWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Creating a file: src/main/resources/statisticsInfo.xlsx</message>
+</record>
+<record>
+  <date>2021-11-19T12:00:56</date>
+  <millis>1637316056724</millis>
+  <sequence>41</sequence>
+  <logger>io.ExcelWriter</logger>
+  <level>INFO</level>
+  <class>io.ExcelWriter</class>
+  <method>writeStatistics</method>
+  <thread>1</thread>
+  <message>Successful of writing statistics</message>
+</record>
+</log>

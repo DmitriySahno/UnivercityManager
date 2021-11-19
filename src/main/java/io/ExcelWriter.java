@@ -7,15 +7,19 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ExcelWriter {
+
+    private static final Logger logger = Logger.getLogger(ExcelWriter.class.getName());
 
     private ExcelWriter() {
     }
 
     public static void writeStatistics(List<Statistics> statisticsList, String filePath) {
+        logger.info("Starting write statistics to excel");
         String[] headerNames =
                 {"Профиль обучения",
                         "Средний балл за экзамен",
@@ -26,6 +30,7 @@ public class ExcelWriter {
             Sheet sheet = workbook.createSheet("Статистика");
             Row row = sheet.createRow(0);
 
+            logger.info("Formatting header");
             CellStyle styleHeader = workbook.createCellStyle();
             Font fontHeader = workbook.createFont();
             fontHeader.setBold(true);
@@ -40,6 +45,7 @@ public class ExcelWriter {
                 cell.setCellValue(headerNames[i]);
             }
 
+            logger.info("Filling the data");
             for (int i = 0; i < statisticsList.size(); i++) {
                 row = sheet.createRow(i + 1);
                 Statistics statistics = statisticsList.get(i);
@@ -51,11 +57,14 @@ public class ExcelWriter {
             }
 
             sheet.autoSizeColumn(1);
+
+            logger.info("Creating a file: "+filePath);
             File file = new File(filePath);
             file.createNewFile();
             workbook.write(new FileOutputStream(file));
+            logger.info("Successful of writing statistics");
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.log(Level.SEVERE, "Fail of writing statistics", e);
         }
     }
 

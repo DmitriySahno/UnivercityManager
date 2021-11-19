@@ -8,10 +8,12 @@ import model.University;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.*;
 
 public class JsonUtil {
 
     private static final Gson gson = new Gson();
+    private static final Logger logger = Logger.getLogger(JsonUtil.class.getName());
 
     private JsonUtil() {
     }
