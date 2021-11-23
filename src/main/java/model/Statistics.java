@@ -3,13 +3,22 @@ package model;
 import com.google.gson.annotations.SerializedName;
 import enums.StudyProfile;
 
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlTransient;
 import java.util.Objects;
 
+@XmlRootElement(name = "statisticsEntry")
 public class Statistics {
+    @XmlElement(name = "universityProfile")
     StudyProfile mainProfile;
+    @XmlElement(name = "avgScore")
     float avgExamScore;
+    @XmlTransient
     int studentQty;
+    @XmlTransient
     int universityQty;
+    @XmlTransient
     String universityNames;
 
     public Statistics() {
@@ -43,22 +52,27 @@ public class Statistics {
         this.universityNames = universityNames;
     }
 
+    @XmlTransient
     public StudyProfile getMainProfile() {
         return mainProfile;
     }
 
+    @XmlTransient
     public float getAvgExamScore() {
         return avgExamScore;
     }
 
+    @XmlTransient
     public int getStudentQty() {
         return studentQty;
     }
 
+    @XmlTransient
     public int getUniversityQty() {
         return universityQty;
     }
 
+    @XmlTransient
     public String getUniversityNames() {
         return universityNames;
     }

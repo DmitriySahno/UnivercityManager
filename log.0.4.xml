@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2021-11-24T00:22:43</date>
-  <millis>1637706163504</millis>
+  <date>2021-11-24T00:14:09</date>
+  <millis>1637705649915</millis>
   <sequence>0</sequence>
   <logger>Main</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Loading students</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:43</date>
-  <millis>1637706163749</millis>
+  <date>2021-11-24T00:14:10</date>
+  <millis>1637705650313</millis>
   <sequence>1</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Starting to read the file with Students: src/main/resources/universityInfo.xlsx</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165426</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652737</millis>
   <sequence>2</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Reading the data of Students</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165451</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652811</millis>
   <sequence>3</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Successful reading the file with Students</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165453</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652812</millis>
   <sequence>4</sequence>
   <logger>Main</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Loading universities</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165454</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652814</millis>
   <sequence>5</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>Starting to read the file with Universities: src/main/resources/universityInfo.xlsx</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165534</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652896</millis>
   <sequence>6</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Reading the data of Universities</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165542</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652905</millis>
   <sequence>7</sequence>
   <logger>io.ExcelLoader</logger>
   <level>INFO</level>
@@ -90,8 +90,8 @@
   <message>Successful of reading the file with Universities</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165545</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652908</millis>
   <sequence>8</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -101,9 +101,64 @@
   <message>Starting conversion Students and Universities to Statistics</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165553</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652916</millis>
   <sequence>9</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Universities per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652920</millis>
+  <sequence>10</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting amount of Students per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652931</millis>
+  <sequence>11</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting a list of Universities per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652935</millis>
+  <sequence>12</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Getting average examination score per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652946</millis>
+  <sequence>13</sequence>
+  <logger>util.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>util.StatisticsUtil</class>
+  <method>lambda$convertStudAndUnivToStat$8</method>
+  <thread>1</thread>
+  <message>Finish conversion to statistics per Profile: LINGUISTICS</message>
+</record>
+<record>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652947</millis>
+  <sequence>14</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
@@ -112,9 +167,9 @@
   <message>Getting amount of Universities per Profile: PHYSICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165555</millis>
-  <sequence>10</sequence>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652948</millis>
+  <sequence>15</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
@@ -123,9 +178,9 @@
   <message>Getting amount of Students per Profile: PHYSICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165564</millis>
-  <sequence>11</sequence>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652952</millis>
+  <sequence>16</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
@@ -134,9 +189,9 @@
   <message>Getting a list of Universities per Profile: PHYSICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165568</millis>
-  <sequence>12</sequence>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652955</millis>
+  <sequence>17</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
@@ -145,9 +200,9 @@
   <message>Getting average examination score per Profile: PHYSICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165579</millis>
-  <sequence>13</sequence>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652957</millis>
+  <sequence>18</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
@@ -156,63 +211,8 @@
   <message>Finish conversion to statistics per Profile: PHYSICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165579</millis>
-  <sequence>14</sequence>
-  <logger>util.StatisticsUtil</logger>
-  <level>INFO</level>
-  <class>util.StatisticsUtil</class>
-  <method>lambda$convertStudAndUnivToStat$8</method>
-  <thread>1</thread>
-  <message>Getting amount of Universities per Profile: MEDICINE</message>
-</record>
-<record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165580</millis>
-  <sequence>15</sequence>
-  <logger>util.StatisticsUtil</logger>
-  <level>INFO</level>
-  <class>util.StatisticsUtil</class>
-  <method>lambda$convertStudAndUnivToStat$8</method>
-  <thread>1</thread>
-  <message>Getting amount of Students per Profile: MEDICINE</message>
-</record>
-<record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165581</millis>
-  <sequence>16</sequence>
-  <logger>util.StatisticsUtil</logger>
-  <level>INFO</level>
-  <class>util.StatisticsUtil</class>
-  <method>lambda$convertStudAndUnivToStat$8</method>
-  <thread>1</thread>
-  <message>Getting a list of Universities per Profile: MEDICINE</message>
-</record>
-<record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165582</millis>
-  <sequence>17</sequence>
-  <logger>util.StatisticsUtil</logger>
-  <level>INFO</level>
-  <class>util.StatisticsUtil</class>
-  <method>lambda$convertStudAndUnivToStat$8</method>
-  <thread>1</thread>
-  <message>Getting average examination score per Profile: MEDICINE</message>
-</record>
-<record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165583</millis>
-  <sequence>18</sequence>
-  <logger>util.StatisticsUtil</logger>
-  <level>INFO</level>
-  <class>util.StatisticsUtil</class>
-  <method>lambda$convertStudAndUnivToStat$8</method>
-  <thread>1</thread>
-  <message>Finish conversion to statistics per Profile: MEDICINE</message>
-</record>
-<record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165584</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652960</millis>
   <sequence>19</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -222,8 +222,8 @@
   <message>Getting amount of Universities per Profile: MATHEMATICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165585</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652962</millis>
   <sequence>20</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -233,8 +233,8 @@
   <message>Getting amount of Students per Profile: MATHEMATICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165586</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652963</millis>
   <sequence>21</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -244,8 +244,8 @@
   <message>Getting a list of Universities per Profile: MATHEMATICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165587</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652964</millis>
   <sequence>22</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -255,8 +255,8 @@
   <message>Getting average examination score per Profile: MATHEMATICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165588</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652966</millis>
   <sequence>23</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -266,63 +266,63 @@
   <message>Finish conversion to statistics per Profile: MATHEMATICS</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165589</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652967</millis>
   <sequence>24</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
   <method>lambda$convertStudAndUnivToStat$8</method>
   <thread>1</thread>
-  <message>Getting amount of Universities per Profile: LINGUISTICS</message>
+  <message>Getting amount of Universities per Profile: MEDICINE</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165590</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652968</millis>
   <sequence>25</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
   <method>lambda$convertStudAndUnivToStat$8</method>
   <thread>1</thread>
-  <message>Getting amount of Students per Profile: LINGUISTICS</message>
+  <message>Getting amount of Students per Profile: MEDICINE</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165591</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652969</millis>
   <sequence>26</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
   <method>lambda$convertStudAndUnivToStat$8</method>
   <thread>1</thread>
-  <message>Getting a list of Universities per Profile: LINGUISTICS</message>
+  <message>Getting a list of Universities per Profile: MEDICINE</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165592</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652970</millis>
   <sequence>27</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
   <method>lambda$convertStudAndUnivToStat$8</method>
   <thread>1</thread>
-  <message>Getting average examination score per Profile: LINGUISTICS</message>
+  <message>Getting average examination score per Profile: MEDICINE</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165593</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652972</millis>
   <sequence>28</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
   <class>util.StatisticsUtil</class>
   <method>lambda$convertStudAndUnivToStat$8</method>
   <thread>1</thread>
-  <message>Finish conversion to statistics per Profile: LINGUISTICS</message>
+  <message>Finish conversion to statistics per Profile: MEDICINE</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165593</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652973</millis>
   <sequence>29</sequence>
   <logger>util.StatisticsUtil</logger>
   <level>INFO</level>
@@ -332,8 +332,8 @@
   <message>Successful of conversion students and universities to statistics</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165596</millis>
+  <date>2021-11-24T00:14:12</date>
+  <millis>1637705652977</millis>
   <sequence>30</sequence>
   <logger>io.ExcelWriter</logger>
   <level>INFO</level>
@@ -343,8 +343,8 @@
   <message>Starting write statistics to excel</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165796</millis>
+  <date>2021-11-24T00:14:13</date>
+  <millis>1637705653161</millis>
   <sequence>31</sequence>
   <logger>io.ExcelWriter</logger>
   <level>INFO</level>
@@ -354,8 +354,8 @@
   <message>Formatting header</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:45</date>
-  <millis>1637706165823</millis>
+  <date>2021-11-24T00:14:13</date>
+  <millis>1637705653280</millis>
   <sequence>32</sequence>
   <logger>io.ExcelWriter</logger>
   <level>INFO</level>
@@ -365,8 +365,8 @@
   <message>Filling the data</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166142</millis>
+  <date>2021-11-24T00:14:13</date>
+  <millis>1637705653960</millis>
   <sequence>33</sequence>
   <logger>io.ExcelWriter</logger>
   <level>INFO</level>
@@ -376,8 +376,8 @@
   <message>Creating a file: src/main/resources/statisticsInfo.xlsx</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166347</millis>
+  <date>2021-11-24T00:14:14</date>
+  <millis>1637705654435</millis>
   <sequence>34</sequence>
   <logger>io.ExcelWriter</logger>
   <level>INFO</level>
@@ -387,8 +387,8 @@
   <message>Successful of writing statistics</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166365</millis>
+  <date>2021-11-24T00:14:14</date>
+  <millis>1637705654458</millis>
   <sequence>35</sequence>
   <logger>Main</logger>
   <level>INFO</level>
@@ -398,8 +398,8 @@
   <message>Starting saving to xml file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166370</millis>
+  <date>2021-11-24T00:14:14</date>
+  <millis>1637705654597</millis>
   <sequence>36</sequence>
   <logger>io.XMLWriter</logger>
   <level>INFO</level>
@@ -409,8 +409,8 @@
   <message>Starting write to xml file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166371</millis>
+  <date>2021-11-24T00:14:14</date>
+  <millis>1637705654602</millis>
   <sequence>37</sequence>
   <logger>io.XMLWriter</logger>
   <level>INFO</level>
@@ -420,8 +420,8 @@
   <message>Starting marshal to xml file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166564</millis>
+  <date>2021-11-24T00:14:58</date>
+  <millis>1637705698578</millis>
   <sequence>38</sequence>
   <logger>io.XMLWriter</logger>
   <level>INFO</level>
@@ -431,8 +431,8 @@
   <message>Successful of writing to xml file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166565</millis>
+  <date>2021-11-24T00:15:01</date>
+  <millis>1637705701864</millis>
   <sequence>39</sequence>
   <logger>Main</logger>
   <level>INFO</level>
@@ -442,8 +442,8 @@
   <message>Successful of saving to xml file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166566</millis>
+  <date>2021-11-24T00:15:03</date>
+  <millis>1637705703674</millis>
   <sequence>40</sequence>
   <logger>Main</logger>
   <level>INFO</level>
@@ -453,8 +453,8 @@
   <message>Starting saving to json file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166569</millis>
+  <date>2021-11-24T00:15:03</date>
+  <millis>1637705703691</millis>
   <sequence>41</sequence>
   <logger>io.JsonWriter</logger>
   <level>INFO</level>
@@ -464,8 +464,8 @@
   <message>Starting write to json file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166813</millis>
+  <date>2021-11-24T00:15:04</date>
+  <millis>1637705704844</millis>
   <sequence>42</sequence>
   <logger>io.JsonWriter</logger>
   <level>INFO</level>
@@ -475,8 +475,8 @@
   <message>Successful of writing to json file</message>
 </record>
 <record>
-  <date>2021-11-24T00:22:46</date>
-  <millis>1637706166815</millis>
+  <date>2021-11-24T00:15:04</date>
+  <millis>1637705704850</millis>
   <sequence>43</sequence>
   <logger>Main</logger>
   <level>INFO</level>

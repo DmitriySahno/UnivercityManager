@@ -17,6 +17,8 @@ public class StatisticsUtil {
 
     private static final Logger logger = Logger.getLogger(StatisticsUtil.class.getName());
 
+    private StatisticsUtil(){}
+
     public static List<Statistics> convertStudAndUnivToStat(List<Student> students, List<University> universities) {
         logger.info("Starting conversion Students and Universities to Statistics");
 

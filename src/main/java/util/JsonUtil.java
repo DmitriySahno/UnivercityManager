@@ -2,6 +2,7 @@ package util;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import model.CommonStructure;
 import model.Student;
 import model.University;
 
@@ -18,38 +19,19 @@ public class JsonUtil {
     private JsonUtil() {
     }
 
-    public static Student jsonToStudent(String json) {
-        return gson.fromJson(new StringReader(json), Student.class);
+    public static Object jsonToObject(String json, Object o) {
+        return gson.fromJson(new StringReader(json), o.getClass());
     }
 
-    public static List<Student> jsonToStudentList(String json) {
-        return gson.fromJson(new StringReader(json), new TypeToken<ArrayList<Student>>() {
+    public static List<Object> jsonToObjectList(String json, Object o) {
+        return gson.fromJson(new StringReader(json), new TypeToken<ArrayList<Object>>() {
         }.getType());
     }
-
-    public static University jsonToUniversity(String json) {
-        return gson.fromJson(new StringReader(json), University.class);
+    public static String universityListToJson(List<Object> objects){
+        return gson.toJson(objects);
     }
 
-    public static List<University> jsonToUniversityList(String json) {
-        return gson.fromJson(new StringReader(json), new TypeToken<ArrayList<University>>() {
-        }.getType());
+    public static String objectToJson(Object object) {
+        return gson.toJson(object);
     }
-
-    public static String studentToJson(Student student) {
-        return gson.toJson(student);
-    }
-
-    public static String studentListToJson(List<Student> students) {
-        return gson.toJson(students);
-    }
-
-    public static String universityToJson(University university){
-        return gson.toJson(university);
-    }
-
-    public static String universityListToJson(List<University> universities){
-        return gson.toJson(universities);
-    }
-
 }
